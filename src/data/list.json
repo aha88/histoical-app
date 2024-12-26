@@ -1,0 +1,497 @@
+{
+    "attractionList": [
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 76109,
+                "poiType": 3,
+                "poiName": "Petronas Twin Towers",
+                "poiSubtitleName": "Menara Berkembar Petronas",
+                "poiEName": "Petronas Twin Towers",
+                "commentInfo": {
+                    "taCommentCount": 30531,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.5-64229-4.png",
+                    "commentCount": 4110,
+                    "commentScore": 4.7,
+                    "commentContent": "Iconic towers and photospot that is a must-visit if you visit Kuala Lumpur!Make sure to visit the shopping mall and park, too☺️✨️",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/0a274424x8y8b9nll15C0.jpg",
+                    "nickName": "R156"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/100n0s000000hh9j5ACA9.jpg",
+                "isNearBy": true,
+                "distanceStr": "49.9km from Api-Api",
+                "location": "Kuala Lumpur",
+                "tagNameList": [
+                    "Night view"
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/petronas-twin-towers-76109?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "price": "7.66",
+                    "priceType": "2",
+                    "cardCountDesc": "View All 10+ Products"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.157469,
+                    "longitude": 101.711564
+                },
+                "rankDesc": "2024 Global 100 - Nightlife",
+                "hotScore": "8.7",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false,
+                "rankingCategory": 2
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 36276655,
+                "poiType": 66,
+                "poiName": "KL Hop-On Hop-Off",
+                "poiEName": "KL Hop-On Hop-Off",
+                "commentInfo": {
+                    "taCommentCount": 1744,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/3.0-64229-4.png",
+                    "commentCount": 564,
+                    "commentScore": 4.3,
+                    "commentContent": "it goes to all major attractions, you will visit the city in a single day. i highly recommend everyone to buy this package and enjoy the city while enjoying a comfortable ride ♥️♥️♥️",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/0a21k12000arkejzvB57C.jpg",
+                    "nickName": "Dilip Methani"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/100l0r000000hd74b85A7.jpg",
+                "isNearBy": true,
+                "distanceStr": "50.4km from Api-Api",
+                "location": "Kuala Lumpur",
+                "tagNameList": [
+                    "Sightseeing bus",
+                    "Night view"
+                ],
+                "otherTagList": [
+                    {
+                        "type": "booking",
+                        "name": "Ready to use immediately",
+                        "code": "ReadyToUse"
+                    },
+                    {
+                        "type": "booking",
+                        "name": "Available for today",
+                        "code": "TodayCanBook"
+                    }
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/kl-hop-on-hop-off-36276655?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "marketPrice": "4.69",
+                    "price": "4.53",
+                    "discountDesc": "Save 0.16",
+                    "priceType": "2",
+                    "discountPrice": "0.16",
+                    "underlinedPrice": "4.69",
+                    "discountIntensity": "Save JOD 0.16"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.145055,
+                    "longitude": 101.711489
+                },
+                "rankDesc": "No.2 of Best Things to Do in Kuala Lumpur",
+                "hotScore": "8.4",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": true,
+                "rankingCategory": 1
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 149569929,
+                "poiType": 66,
+                "poiName": "G.E.M. I AM GLORIA WORLD TOUR - Kuala Lumpur",
+                "poiEName": "G.E.M. I AM GLORIA WORLD TOUR - Kuala Lumpur",
+                "commentInfo": {
+                    "taCommentCount": 0,
+                    "commentCount": 1,
+                    "commentScore": 5.0,
+                    "commentContent": "good",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/1i54r12000h1rf93l0696.jpg",
+                    "nickName": "oanhlam"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/0100212000hb843f293CA.jpg",
+                "isNearBy": true,
+                "distanceStr": "52.8km from Api-Api",
+                "location": "Kuala Lumpur",
+                "tagNameList": [
+                    "Concerts"
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/gem-i-am-gloria-world-tour-kuala-lumpur-149569929?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "price": "52.47",
+                    "priceType": "2"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.054486,
+                    "longitude": 101.691221
+                },
+                "hotScore": "8.3",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 77143,
+                "poiType": 66,
+                "poiName": "Sunway Lagoon Theme Park",
+                "poiEName": "Sunway Lagoon Theme Park",
+                "commentInfo": {
+                    "taCommentCount": 3371,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-64229-4.png",
+                    "commentCount": 2234,
+                    "commentScore": 4.7,
+                    "commentContent": "Ctrip is still the most cost-effective. We went there on a weekday and met several groups of school graduation trips. Each group was about 20-40 people. The waiting time was relatively short. There would be a lot of people on weekends and holidays because the annual pass was very cheap. Many people went there to play for a while. Life Waves is very interesting, and there is a Live Band to cheer, which is very exciting. Children and adults can have fun. The zoo is not big, but it is also very interesting, especially when you meet an old goat that can cough. Food in the park is expensive, so you can bring your own mineral water. There is a paid locker. It is completely fine for two people to use a small 25 horse. It is the size of a normal schoolbag. Girls are advised to bring a hair dryer. There is hot water for bathing, but I never found it every time I went. The locker next to Subway is usually convenient for storing clothes and changing clothes in the bathroom. It is worth a visit. The children want to go again after they have been there.",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/1i54r12000h1rf93l0696.jpg",
+                    "nickName": "206***56"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/10080q000000gbo0rE101.jpg",
+                "isNearBy": true,
+                "distanceStr": "44.1km from Api-Api",
+                "location": "Subang Jaya",
+                "tagNameList": [
+                    "Water parks"
+                ],
+                "otherTagList": [
+                    {
+                        "type": "booking",
+                        "name": "Ready to use immediately",
+                        "code": "ReadyToUse"
+                    },
+                    {
+                        "type": "booking",
+                        "name": "Available for today",
+                        "code": "TodayCanBook"
+                    }
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/subang-jaya/sunway-lagoon-theme-park-77143?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "marketPrice": "12.49",
+                    "price": "10.93",
+                    "discountDesc": "Save 1.56",
+                    "priceType": "2",
+                    "discountPrice": "1.56",
+                    "underlinedPrice": "12.49",
+                    "discountIntensity": "12% off",
+                    "cardCountDesc": "View All 20+ Products"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.069393,
+                    "longitude": 101.606753
+                },
+                "rankDesc": "2024 Global 100 - Family-friendly Attractions",
+                "hotScore": "8.3",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": true,
+                "rankingCategory": 2
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 13608310,
+                "poiType": 3,
+                "poiName": "Aquaria KLCC",
+                "poiEName": "Aquaria KLCC",
+                "commentInfo": {
+                    "taCommentCount": 6280,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-64229-4.png",
+                    "commentCount": 2218,
+                    "commentScore": 4.5,
+                    "commentContent": "Nice aquarium, easy to find and experience is amusing also can learn a lot if you take time to read the explanatory. Easy to understand and friendly for kids. Very impressive fish at the basement part of the visit (after the stairs down)",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/1h62d120008njbdhpE8C0.jpg",
+                    "nickName": "TebowChampagne"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/35091c000001dqu0f1EA2.jpg",
+                "isNearBy": true,
+                "distanceStr": "50.3km from Api-Api",
+                "location": "Kuala Lumpur",
+                "tagNameList": [
+                    "Zoos & aquariums"
+                ],
+                "otherTagList": [
+                    {
+                        "type": "booking",
+                        "name": "Ready to use immediately",
+                        "code": "ReadyToUse"
+                    },
+                    {
+                        "type": "booking",
+                        "name": "Available for today",
+                        "code": "TodayCanBook"
+                    }
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/aquaria-klcc-13608310?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "marketPrice": "8.59",
+                    "price": "7.03",
+                    "discountDesc": "Save 1.56",
+                    "priceType": "2",
+                    "discountPrice": "1.56",
+                    "underlinedPrice": "8.59",
+                    "discountIntensity": "18% off"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.153548,
+                    "longitude": 101.713178
+                },
+                "rankDesc": "2024 Global 100 - Family-friendly Attractions",
+                "hotScore": "8.2",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": true,
+                "rankingCategory": 2
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 76118,
+                "poiType": 3,
+                "poiName": "Kuala Lumpur Tower",
+                "poiSubtitleName": "Menara Kuala Lumpur",
+                "poiEName": "Kuala Lumpur Tower",
+                "commentInfo": {
+                    "taCommentCount": 8755,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-64229-4.png",
+                    "commentCount": 1443,
+                    "commentScore": 4.5,
+                    "commentContent": "Booking tickets on Ctrip is cheaper than buying them at the entrance of the rotating tower. You can directly take the e-ticket to the entrance to exchange for the ticket and enter smoothly. The night view of Kuala Lumpur is very beautiful, especially the bird's eye view from a different perspective; I arrived in the evening and was lucky not to catch the rain.",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/zc0l170000011e3741A91.jpg",
+                    "nickName": "kristalm"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/1lo3412000cd81hp5250A.png",
+                "isNearBy": true,
+                "distanceStr": "49.3km from Api-Api",
+                "location": "Kuala Lumpur",
+                "tagNameList": [
+                    "Night view"
+                ],
+                "otherTagList": [
+                    {
+                        "type": "booking",
+                        "name": "Available for tomorrow",
+                        "code": "TomorrowCanBook"
+                    }
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/kuala-lumpur-tower-76118?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "marketPrice": "10.15",
+                    "price": "7.81",
+                    "discountDesc": "Save 2.34",
+                    "priceType": "2",
+                    "discountPrice": "2.34",
+                    "underlinedPrice": "10.15",
+                    "discountIntensity": "23% off",
+                    "cardCountDesc": "View All 10+ Products"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.152876,
+                    "longitude": 101.703852
+                },
+                "rankDesc": "2024 Global 100 - Nightlife",
+                "hotScore": "8.1",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false,
+                "rankingCategory": 2
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 99978,
+                "poiType": 3,
+                "poiName": "Genting Highlands",
+                "poiEName": "Genting Highlands",
+                "commentInfo": {
+                    "taCommentCount": 0,
+                    "commentCount": 743,
+                    "commentScore": 4.7,
+                    "commentContent": "it’s way cooler in terms of temperature compared to Kuala Lumpur, cable cars are nice with a glass floor, many casinos, a mall and mountain views. I don’t think I’ll go back there again but it was a good experience, I think 3 days are enough to visit",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/0a274224x8y7ed4e0C809.jpg",
+                    "nickName": "Nadia777!"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/0100512000f6qlbnn3F65.jpg",
+                "isNearBy": true,
+                "distanceStr": "57.8km from Api-Api",
+                "location": "Genting Highlands",
+                "tagNameList": [
+                    "Natural scenery",
+                    "Resorts"
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/genting-highlands/genting-highlands-99978?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "price": "1.57",
+                    "priceType": "2",
+                    "cardCountDesc": "View All 10+ Products"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.423978,
+                    "longitude": 101.793201
+                },
+                "hotScore": "8.0",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 96222,
+                "poiType": 66,
+                "poiName": "Genting SkyWorlds Theme Park",
+                "poiEName": "Genting SkyWorlds Theme Park",
+                "commentInfo": {
+                    "taCommentCount": 0,
+                    "commentCount": 949,
+                    "commentScore": 4.4,
+                    "commentContent": "Nice weather on the day. A lot of tourists, need to queue at most of the games.",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/1i54p12000h1rhnro8066.jpg",
+                    "nickName": "E49***29"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/1lo4x12000bksolut082C.jpg",
+                "isNearBy": true,
+                "distanceStr": "57.9km from Api-Api",
+                "location": "Genting Highlands",
+                "tagNameList": [
+                    "Amusement parks"
+                ],
+                "otherTagList": [
+                    {
+                        "type": "booking",
+                        "name": "Available for tomorrow",
+                        "code": "TomorrowCanBook"
+                    }
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/genting-highlands/genting-skyworlds-theme-park-96222?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "marketPrice": "29.5",
+                    "price": "17.15",
+                    "discountDesc": "Save 12.35",
+                    "priceType": "2",
+                    "discountPrice": "12.35",
+                    "underlinedPrice": "29.5",
+                    "discountIntensity": "41% off",
+                    "cardCountDesc": "View All 10+ Products"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.422485,
+                    "longitude": 101.794678
+                },
+                "rankDesc": "2024 Global 100 - Family-friendly Attractions",
+                "hotScore": "8.0",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false,
+                "rankingCategory": 2
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 35583643,
+                "poiType": 3,
+                "poiName": "Sky Mirror Malaysia",
+                "poiSubtitleName": "(Official Jetty) Sky Mirror Kuala Selangor",
+                "poiEName": "Sky Mirror Malaysia",
+                "commentInfo": {
+                    "taCommentCount": 0,
+                    "commentCount": 201,
+                    "commentScore": 4.8,
+                    "commentContent": "We had a tour with sky mirror, an Indian temple and the Dutch fortress and in the pricy program a lunch was included, they promised beforehand. We first visited the temple (free of charge) and the fortress (free of charge), then it was lunch time, but we had to pay (extra) for the lunch. When we arrived at the jetty for the sky mirror and the people were about to depart, the driver said we had to register, otherwise we could not depart. That was another bummer, as there was no time for others.",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/0a211224x8ttc1l443DAC.jpg",
+                    "nickName": "Travelogist"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/01024120009buldxq73D5.png",
+                "isNearBy": true,
+                "distanceStr": "5.8km from Api-Api",
+                "location": "Kuala Selangor",
+                "tagNameList": [
+                    "Beaches and shores"
+                ],
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-selangor/sky-mirror-malaysia-35583643?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "priceType": "4"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.342478,
+                    "longitude": 101.250781
+                },
+                "rankDesc": "No.8 of Best Things to Do in Kuala Lumpur",
+                "hotScore": "7.6",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false,
+                "rankingCategory": 1
+            }
+        },
+        {
+            "showType": 1,
+            "card": {
+                "poiId": 55818557,
+                "poiType": 66,
+                "poiName": "National Stadium Bukit Jalil",
+                "poiSubtitleName": "Stadium Nasional Bukit Jalil",
+                "poiEName": "National Stadium Bukit Jalil",
+                "commentInfo": {
+                    "taCommentCount": 8,
+                    "taCommentUrl": "https://www.tripadvisor.com/img/cdsi/img2/ratings/traveler/4.0-64229-4.png",
+                    "commentCount": 5,
+                    "commentScore": 4.4,
+                    "commentContent": "went to the stadium few times for concert and football final.",
+                    "commentAvatar": "https://ak-d.tripcdn.com/images/0a208224x8vju0kj07052.jpg",
+                    "nickName": "Desniaty"
+                },
+                "isAdvertisement": false,
+                "coverImageUrl": "https://ak-d.tripcdn.com/images/0102u12000f6rk4oyA13E.png",
+                "isNearBy": true,
+                "distanceStr": "52.8km from Api-Api",
+                "location": "Kuala Lumpur",
+                "detailUrl": "https://my.trip.com/travel-guide/attraction/kuala-lumpur/national-stadium-bukit-jalil-55818557?curr=JOD&locale=en-MY",
+                "priceInfo": {
+                    "priceType": "5"
+                },
+                "coordinate": {
+                    "coordinateType": "GCJ02",
+                    "latitude": 3.054624,
+                    "longitude": 101.691276
+                },
+                "rankDesc": "No.7 of Best Things to Do in Kuala Lumpur",
+                "hotScore": "5.9",
+                "isFromFavor": false,
+                "isNewRank": false,
+                "hasVideo": false,
+                "rankingCategory": 1
+            }
+        }
+    ]
+}

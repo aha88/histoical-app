@@ -1,0 +1,116 @@
+@use "bootstrap" as *;
+
+
+.boxcontainer{
+    padding: 10px;
+    width:100%;
+    display: block;
+
+    .nameTitle {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .picholder {
+        overflow: hidden;
+        height: 150px;
+        width: 100%;
+        background: rgb(71, 71, 71);
+        text-align: center;
+    }
+
+    h5 {
+        font-size: medium;
+        padding-right: 40px;
+    }
+
+    .desc {
+        height: 100px;
+        overflow: hidden;
+        text-wrap: inherit;
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .float-right {
+        float: right;
+    }
+   
+    .buttonadd {
+        position: relative;  
+        display: inline-block;
+        
+        &:hover {
+            width: 150px;
+            background: #ececec; 
+            cursor: pointer;
+        }
+      
+        &:hover::after {
+          content: "Add"; 
+          color: black;  
+          font-size: 14px;  
+          margin-left: 5px;
+          padding:5px;
+        }
+    }
+    
+    .buttonremove {
+        position: relative;  
+        display: inline-block;
+        
+        &:hover {
+            width: 150px;
+            background: #ececec; 
+            cursor: pointer;
+        }
+      
+        &:hover::after {
+          content: " Removed"; 
+          color: red;  
+          font-size: 14px;  
+          margin-left: 5px;
+          padding:5px;
+        }
+    }
+}
+
+.section{
+    background: #ececec;
+}
+
+.topheader {
+    padding: 15px 5px;
+    background: #bce2ffcc;
+}
+
+.detailsBody{
+    .bg-gray{
+        background: #666
+    }
+
+    section {
+        font-weight: 600;
+        font-size: 30px;
+        margin-bottom: 20px;
+        
+        article {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+    
+    .details  {
+        height: 300px;
+        overflow: hidden;
+        width: max-content;
+        text-align: center;
+        background: #cccc;
+        margin: auto;
+        display: flex;       
+    }
+}
