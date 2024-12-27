@@ -7,12 +7,15 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { CButton, CCol, CRow } from "@coreui/react";
+import { useSelector } from "react-redux";
+
 
 const CardHolder = ({ title, pic, desc, numberID, onSelect, btnadd=true,handlePage }) => {
-  // Check if this card is selected
-  const selectedPlaces = JSON.parse(localStorage.getItem("myfav")) || [];
-  const isSelected = selectedPlaces.some((place) => place.card.poiId === numberID);
+  const { data, selectedPlaces, loading, error } = useSelector(
+    (state) => state.historical
+  );
 
+  const isSelected = selectedPlaces.some((place) => place.card.poiId === numberID);
 
   return (
     <div className="shadow boxcontainer bg-white-border p-2">
@@ -63,7 +66,6 @@ const CardHolder = ({ title, pic, desc, numberID, onSelect, btnadd=true,handlePa
           <CRow>
             <CCol md={12}>
               <a className="float-right btn btn-link" onClick={() => handlePage(numberID)}>Details</a>
-              
             </CCol>
           </CRow>
           :

@@ -1,50 +1,45 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { addPlace, removePlace } from "./reducers/historicalActions";
 import CardHolder from "./components/CardHolder";
 import JSONdata from "../data/list.json";
 import { CCol, CHeader, CRow } from "@coreui/react";
 import Cardsearch from "./components/CardSearch";
 import { CardFooter } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from 'react-redux';
-
 
 export default function Home() {
-  const [item, setItem] = useState([]); // State for selected places
   const [searchTerm, setSearchTerm] = useState(null);
   const router = useNavigate();
   const dispatch = useDispatch();
-  // const { data, loading, error } = useSelector((state) => state.historical);
 
+  const { data, selectedPlaces, loading, error } = useSelector(
+    (state) => state.historical
+  );
 
   useEffect(() => {
-    const myfav = () => {
-      if(localStorage.getItem("myfav")){
-      const storage = localStorage.getItem("myfav");
-      setItem(storage ? JSON.parse(storage) : []);
-    }
-  }
-
-  dispatch({ type: 'FETCH_DATA_REQUEST' });
-     myfav
-     
+    dispatch({ type: "FETCH_DATA_REQUEST" });
+ 
+    const savedFavorites = JSON.parse(localStorage.getItem("myfav")) || [];
+    savedFavorites.forEach((place) => dispatch(addPlace(place)));
   }, [dispatch]);
-
-
-
+ 
+  useEffect(() => {
+    localStorage.setItem("myfav", JSON.stringify(selectedPlaces));
+  }, [selectedPlaces]);
+  
   const updateSelectedPlace = (place) => {
-    const existingFavs = JSON.parse(localStorage.getItem("myfav")) || [];
-    const alreadySelected = existingFavs.some(
+    const alreadySelected = selectedPlaces.some(
       (fav) => fav.card.poiId === place.card.poiId
     );
 
-    const updatedFavs = alreadySelected
-      ? existingFavs.filter((fav) => fav.card.poiId !== place.card.poiId) // Remove if exists
-      : [...existingFavs, place]; 
-      
-    localStorage.setItem("myfav", JSON.stringify(updatedFavs));
-    setItem(updatedFavs);
+    if (alreadySelected) {
+      dispatch(removePlace(place.card.poiId));
+    } else {
+      dispatch(addPlace(place));
+    }
   };
 
   const handleSearch = (val) => {
@@ -56,8 +51,8 @@ export default function Home() {
   };
 
   const goToPage = (e) => {
-    router(`/details/${e}`); 
-  }
+    router(`/details/${e}`);
+  };
 
   return (
     <>
@@ -72,7 +67,6 @@ export default function Home() {
             <h2>Search Location</h2>
           )}
         </CCol>
-
         {!searchTerm ? (
           <CCol md={12}>
             <CRow>
@@ -109,14 +103,13 @@ export default function Home() {
           </CCol>
         )}
       </CRow>
-
       <CRow className="section mt-5 p-3">
         <CCol md={12}>
           <h2>Selected Place</h2>
         </CCol>
-        {item.length > 0 ? (
+        {selectedPlaces.length > 0 ? (
           <CRow>
-            {item.map((place, i) => (
+            {selectedPlaces.map((place, i) => (
               <CCol md={4} sm={6} key={i} className="d-flex mt-3">
                 <CardHolder
                   title={place.card.poiName}

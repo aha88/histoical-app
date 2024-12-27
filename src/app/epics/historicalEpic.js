@@ -5,7 +5,7 @@ import JSONdata from '../../data/list.json';
 export const historicalEpic = (action$) =>
   action$.pipe(
     ofType('FETCH_DATA_REQUEST'),
-    delay(500), // Simulating a delay of 500ms
+    delay(500), 
     map(() => {
       try {
         const data = JSONdata.attractionList;
