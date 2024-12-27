@@ -26,18 +26,24 @@ export default function Home() {
     savedFavorites.forEach((place) => dispatch(addPlace(place)));
   }, [dispatch]);
  
+
   useEffect(() => {
     localStorage.setItem("myfav", JSON.stringify(selectedPlaces));
   }, [selectedPlaces]);
   
+
   const updateSelectedPlace = (place) => {
     const alreadySelected = selectedPlaces.some(
       (fav) => fav.card.poiId === place.card.poiId
     );
 
+    console.log(alreadySelected);
+
     if (alreadySelected) {
+      console.log('remove')
       dispatch(removePlace(place.card.poiId));
     } else {
+      console.log('add')
       dispatch(addPlace(place));
     }
   };

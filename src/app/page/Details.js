@@ -1,15 +1,24 @@
 import { CCardBody, CCardHeader, CCardImage, CCol, CRow, CButton, CHeader } from "@coreui/react";
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import { CIcon } from "@coreui/icons-react";
 
 import JSONdata from "../../data/list.json";
 import { useParams } from "react-router-dom";
 import Link from "next/link";
 import { cilArrowLeft } from "@coreui/icons";
+import CardHolder from "../components/CardHolder";
+import { useSelector, useDispatch } from "react-redux";
 
 
 const Details = () => {
   const { id } = useParams();
+  const { data, selectedPlaces, loading, error } = useSelector(
+    (state) => state.historical
+  );
+
+  useEffect(() => {
+    localStorage.setItem("myfav", JSON.stringify(selectedPlaces));
+  }, [selectedPlaces]);
 
   const item = useMemo(
     () =>
@@ -18,11 +27,13 @@ const Details = () => {
       ),
     [id]
   );
+
   if (!item) {
-    return <div>Item not found</div>; // Handle case where item is not found
+    return <div>Item not found</div>;  
   }
 
-
+  console.log(selectedPlaces);
+  
   return (
     <>
     <CHeader className="topheader">
@@ -87,6 +98,40 @@ const Details = () => {
           
           {/* Add more fields as needed */}
         </CCol>
+
+        <CButton className="btn-link" href="/">
+            <CIcon
+                icon={cilArrowLeft}
+                height={20}
+                width={20}
+                size="md"
+                style={{ fill: "blue", cursor: "pointer", marginRight: '5px' }}
+                /> 
+            Back to Home
+        </CButton>
+
+        <CRow className="section mt-5 p-3">
+        <CCol md={12}>
+          <h2>Selected Place</h2>
+        </CCol>
+        {selectedPlaces.length > 0 ? (
+          <CRow>
+            {selectedPlaces.map((place, i) => (
+              <CCol md={4} sm={6} key={i} className="d-flex mt-3">
+                <CardHolder
+                  title={place.card.poiName}
+                  pic={place.card.coverImageUrl}
+                  desc={place.card.commentInfo.commentContent}
+                  numberID={place.card.poiId}
+                  btnadd={false}
+                />
+              </CCol>
+            ))}
+          </CRow>
+        ) : (
+          <p>No place selected yet.</p>
+        )}
+      </CRow>
       </CRow>
     </>
   );
